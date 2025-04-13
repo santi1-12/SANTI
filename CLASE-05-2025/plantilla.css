@@ -1,0 +1,104 @@
+header{
+    height: 5rem;
+    background: #05ffc5;
+}
+.barrita{
+    background: #094f79;
+}
+body{
+    background-color: #000000;
+}
+div{
+    border: #05ffc5;
+}
+#oe{
+    background-color: rgba(92, 97, 100, 0.486);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10mm;
+    border-radius: 10px;
+    border: px solid #fdfdfd;
+    justify-content: space-around; /*espacio entre articulos*/
+    background-color: #07a0e7b4; /*cambia el color de la parte de atras de la imagen*/
+    gap: 0.5rem; /* separa las imagenes*/
+    color: #d806bc;
+        
+}
+
+
+/* Cambia el color de la parte de adentro de buscar  */
+.busqueda1 .form-control {
+    background-color: #ffffff; /* Cambia el color del cuadro*/
+    color: #00000000; /* Dark text */
+}
+
+/* Cambia el color del boton de buscar */
+.busqueda1 button {
+    background-color: #00aeff; /* fondo */
+    color: rgb(0, 0, 0); /* texto blanco*/
+}
+
+/* Al pasar el cursor, cambia el color del botón */
+.busqueda1 button:hover {
+    background-color: #0077ff;
+}
+.busqueda1 {
+    display: flex;
+    justify-content: flex-end; /* Alinea los elementos a la derecha */
+    width: 70%;
+}
+
+.busqueda1 input {
+    margin-right: 10px; /* Espacio entre el input y el botón */
+}
+
+
+
+/* Estilo para el texto de descuento */
+.discount {
+    background-color: #ff2f00; /* Naranja brillante */
+    color: white;
+    padding: 4px 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Estilo para el precio */
+.price {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #0099f1;
+    background-color: #FFF3E0; /* Fondo suave detrás del precio */
+    padding: 8px 15px;
+    border-radius: 10px;
+    border: 2px solid #c5c5c5;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para hacerlo más destacado */
+    transition: all 0.3s ease;
+}
+
+/* Efecto al pasar el ratón sobre el precio */
+.price:hover {
+    color: rgb(9, 32, 241);
+    background-color: #029fdd;
+    transform: scale(1.1); /* Efecto de aumento */
+}
+
+/* Estilo para el botón "Comprar" */
+.btn-primary {
+    background-color: #069bff;
+    color: rgb(0, 0, 0); /*color letra*/
+    border-radius: 10px;
+    padding: 10px 15px; 
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #000000; /* Cambio de color al pasar el mouse */
+}
+
+
+
